@@ -1,0 +1,11 @@
+{
+  "name": "Minhocao",
+  "version": "1.0.0",
+  "description": "inscrição para o scape room",
+  "main": "index.js",
+  "author": "Eloisa",
+  "license": "MIT",
+  "dependencies": {
+    "npm-git-install": "^0.3.0"
+  }
+}
