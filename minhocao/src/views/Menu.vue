@@ -2,7 +2,7 @@
 	<div class="menu">
 		<v-layout row>
 			<sidebar></sidebar>
-			<v-content>
+			<v-content class="conteudo">
 				<transition>
 					<router-view></router-view>
 				</transition>
@@ -25,5 +25,9 @@ export default {
 <style>
 .menu {
 	height: 100vh;
+}
+
+.conteudo {
+	background-color: #f58b54;
 }
 </style>

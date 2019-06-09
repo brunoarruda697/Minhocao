@@ -11,7 +11,7 @@ Vue.use(Vuetify, {
     customProperties: true,
   },
   theme: {
-    primary: '#2E7D32',
+    primary: '#f58b54',
     secondary: '#66BB6A',
     error: '#FF3D00',
     success: '#4CAF50',
