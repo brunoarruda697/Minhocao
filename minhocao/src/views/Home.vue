@@ -11,8 +11,17 @@
           <div><span>Stay</span> Awake </div>
           <div>Creepy<span>style</span></div>
           <div><span>Look</span>Behind You</div>
-            <input type="button" class="botao" value="Entrar" src="card.html">
-            <input type="button" class="botao-regulamento" value="Regularmento">
+            <input
+              type="button"
+              class="botao"
+              @click="openMenu()"
+              value="Entrar"
+            >
+            <input
+              type="button"
+              class="botao-regulamento"
+              value="Regularmento"
+            >
           </div>
       </v-layout>
     </v-container>
@@ -22,7 +31,12 @@
 <script>
 
 export default {
-  name: 'home',
+  name: 'Home',
+  methods: {
+    openMenu() {
+      this.$router.push('/menu');
+    },
+  },
 };
 </script>
 
@@ -41,7 +55,7 @@ export default {
 
   #twitch {
     font-size: 4em;
-    height: 100vh; 
+    height: 100vh;
     text-transform: uppercase;
     display: flex;
     align-items: center;
@@ -74,20 +88,32 @@ export default {
   #twitch div:nth-child(8) { animation-delay: 28s}
 
   @keyframes switch {
-      0% { opacity: 0; filter: blur(3px); transform:scale(.95);  text-shadow: 40px 42px 2px rgba(0,0,0,.2)}
-      3% { opacity: .7; filter: blur(2px); transform:scale(1);  text-shadow: 40px 42px 2px rgba(0,0,0,.1)}
-      6% { opacity: .7; filter: blur(2px); transform:scale(1);color: #fff;  text-shadow: 40px 42px 2px rgba(0,0,0,.1)}
-      10% { opacity: .7; filter: blur(3px); transform:scale(1.1);color: #000;  text-shadow: 40px 42px 2px rgba(0,0,0,.1)}
-      10.1% { opacity: .8; filter: blur(2px); transform:scale(2);color: #fff;  text-shadow: -40px -142px 2px rgba(0,0,0,.1)}
-    10.2% { opacity: .8; filter: blur(2px); transform:scale(2);color: #fff;  text-shadow: 40px 42px 2px rgba(0,0,0,0,.1)}    
-      11.1% { opacity: .8; filter: blur(2px); transform:scale(2);color: #111;;  text-shadow: 40px 42px 2px rgba(0,0,0,.1)}
-      11.2% { opacity: .7; filter: blur(2px); transform:scale(2);color: #fff;  text-shadow: 90px 52px 2px rgba(0,0,0,.1)}
-      12% { opacity: .7; filter: blur(5px); transform:scale(1.1);color: black;  text-shadow: 90px 52px 2px rgba(0,0,0,0)}
-      12.1% { opacity: .7; filter: blur(5px); transform:scale(1.1);color: #000;  text-shadow: -90px -52px 2px rgba(0,0,0,0)}
-      13% { opacity: 0; filter: blur(3px); transform:scale(1); color: #000;  text-shadow: 40px 42px 2px} 
-    12.1% { opacity: .7; filter: blur(5px); transform:scale(1.1);color: #000;  text-shadow: -90px -52px 2px rgba(0,0,0,0)}
-      80% { opacity: 0}
-      100% { opacity: 0}
+    0% { opacity: 0; filter: blur(3px); transform:scale(.95);
+      text-shadow: 40px 42px 2px rgba(0,0,0,.2)}
+    3% { opacity: .7; filter: blur(2px); transform:scale(1);
+      text-shadow: 40px 42px 2px rgba(0,0,0,.1)}
+    6% { opacity: .7; filter: blur(2px); transform:scale(1); color: #fff;
+      text-shadow: 40px 42px 2px rgba(0,0,0,.1)}
+    10% { opacity: .7; filter: blur(3px); transform:scale(1.1); color: #000;
+      text-shadow: 40px 42px 2px rgba(0,0,0,.1)}
+    10.1% { opacity: .8; filter: blur(2px); transform:scale(2); color: #fff;
+      text-shadow: -40px -142px 2px rgba(0,0,0,.1)}
+    10.2% { opacity: .8; filter: blur(2px); transform:scale(2); color: #fff;
+      text-shadow: 40px 42px 2px rgba(0,0,0,0,.1)}
+    11.1% { opacity: .8; filter: blur(2px); transform:scale(2); color: #111;
+      text-shadow: 40px 42px 2px rgba(0,0,0,.1)}
+    11.2% { opacity: .7; filter: blur(2px); transform:scale(2); color: #fff;
+      text-shadow: 90px 52px 2px rgba(0,0,0,.1)}
+    12% { opacity: .7; filter: blur(5px); transform:scale(1.1); color: black;
+      text-shadow: 90px 52px 2px rgba(0,0,0,0)}
+    12.1% { opacity: .7; filter: blur(5px); transform:scale(1.1); color: #000;
+      text-shadow: -90px -52px 2px rgba(0,0,0,0)}
+    13% { opacity: 0; filter: blur(3px); transform:scale(1); color: #000;
+      text-shadow: 40px 42px 2px}
+    12.1% { opacity: .7; filter: blur(5px); transform:scale(1.1); color: #000;
+      text-shadow: -90px -52px 2px rgba(0,0,0,0)}
+    80% { opacity: 0}
+    100% { opacity: 0}
   }
 
   @keyframes flicker {
