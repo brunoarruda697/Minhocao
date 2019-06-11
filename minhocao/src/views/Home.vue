@@ -14,7 +14,7 @@
             <input
               type="button"
               class="botao"
-              @click="openMenu()"
+              @click="openSalas()"
               value="Entrar"
             >
             <input
@@ -33,8 +33,8 @@
 export default {
   name: 'Home',
   methods: {
-    openMenu() {
-      this.$router.push('/menu');
+    openSalas() {
+      this.$router.push('/salas');
     },
   },
 };

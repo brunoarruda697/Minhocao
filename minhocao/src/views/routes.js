@@ -5,20 +5,13 @@ export default [
     component: () => import('@/views/Home.vue'),
   },
   {
-    path: '/menu',
-    name: 'Menu',
-    component: () => import('@/views/Menu.vue'),
-    children: [
-      {
-        path: 'inscricao',
-        name: 'inscricao',
-        component: () => import('@/views/Inscricao.vue'),
-      },
-      {
-        path: 'regulamento',
-        name: 'regulamento',
-        component: () => import('@/views/Regulamento.vue'),
-      },
-    ],
+    path: '/salas',
+    name: 'Salas',
+    component: () => import('@/views/Salas.vue'),
+  },
+  {
+    path: '/detalhes',
+    name: 'detalhes',
+    component: () => import('@/views/Detalhes.vue'),
   },
 ];
