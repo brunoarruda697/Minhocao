@@ -28,7 +28,7 @@
               <v-layout justify-end>
                 <v-flex xs5 mr-4>
                   <v-btn flat @click="inscricao($event)">
-                    <span class="botao">Inscrever</span>
+                    <span class="botao">Detalhes</span>
                   </v-btn>
                 </v-flex>
               </v-layout>

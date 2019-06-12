@@ -10,8 +10,8 @@ export default [
     component: () => import('@/views/Salas.vue'),
   },
   {
-    path: '/detalhes',
-    name: 'detalhes',
+    path: '/salas/:id',
+    name: 'Detalhes',
     component: () => import('@/views/Detalhes.vue'),
   },
 ];
