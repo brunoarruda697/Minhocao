@@ -14,12 +14,13 @@
             <input
               type="button"
               class="botao"
-              @click="openSalas()"
+              @click="abrirPaginaDasSalas($event)"
               value="Entrar"
             >
             <input
               type="button"
               class="botao-regulamento"
+              @click="abrirRegulamento($event)"
               value="Regularmento"
             >
           </div>
@@ -33,8 +34,11 @@
 export default {
   name: 'Home',
   methods: {
-    openSalas() {
+    abrirPaginaDasSalas() {
       this.$router.push('/salas');
+    },
+    abrirRegulamento() {
+      this.$router.push('/regulamento');
     },
   },
 };

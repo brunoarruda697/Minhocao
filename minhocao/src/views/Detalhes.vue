@@ -63,7 +63,7 @@
                       ></v-select>
                       <v-flex xs12>
                         <v-layout align-center justify-end fill-height>
-                          <v-btn class="botao" @click="inscricao($event)">
+                          <v-btn class="botao" @click="realizarInscricao($event)">
                             <span class="botao-texto">Inscrever</span>
                           </v-btn>
                         </v-layout>
@@ -81,7 +81,7 @@
 </template>
 
 <script>
-import { buscarPorNumeroDaSala } from '@/views/service';
+import { buscarPorNumeroDaSala, fazerInscricao } from '@/views/service';
 import Cursos from '@/utils/cursos';
 
 export default {
@@ -112,7 +112,17 @@ export default {
       .then(({ data }) => {
         this.sala = data;
       });
-    }
+    },
+    realizarInscricao() {
+      fazerInscricao(this.inscricao)
+      .then(() => {
+        /* eslint-disable */
+        alert('Inscrição realizada com sucesso!');
+      })
+      .catch(() => {
+        alert('Erro na realização da inscrição');
+      });
+    },
   },
 };
 </script>

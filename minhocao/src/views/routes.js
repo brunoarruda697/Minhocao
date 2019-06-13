@@ -14,4 +14,9 @@ export default [
     name: 'Detalhes',
     component: () => import('@/views/Detalhes.vue'),
   },
+  {
+    path: '/regulamento',
+    name: 'Regulamento',
+    component: () => import('@/views/Regulamento.vue'),
+  },
 ];
