@@ -14,7 +14,7 @@
             <input
               type="button"
               class="botao"
-              @click="abrirPaginaDasSalas($event)"
+              @click="abrirPaginaDosTurnos($event)"
               value="Entrar"
             >
             <input
@@ -34,8 +34,8 @@
 export default {
   name: 'Home',
   methods: {
-    abrirPaginaDasSalas() {
-      this.$router.push('/salas');
+    abrirPaginaDosTurnos() {
+      this.$router.push('/turnos');
     },
     abrirRegulamento() {
       this.$router.push('/regulamento');

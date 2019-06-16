@@ -26,10 +26,10 @@
             </v-flex>
             <v-flex xs12 mt-3>
               <v-layout justify-end>
-                <v-flex xs5 mr-4>
-                  <v-btn flat @click="inscricao($event)">
-                    <span class="botao">Detalhes</span>
-                  </v-btn>
+                <v-flex xs4>
+                  <button class="botao-detalhes" @click="inscricao($event)">
+                    <span class="botao-detalhes-texto">DETALHES</span>
+                  </button>
                 </v-flex>
               </v-layout>
             </v-flex>
@@ -74,7 +74,12 @@ export default {
   border-radius: 1vh;
 }
 
-.botao {
+.botao-detalhes {
+  outline: none;
+}
+
+.botao-detalhes-texto {
   font-family: 'Roboto', sans-serif;
+  font-size: 15px;
 }
 </style>

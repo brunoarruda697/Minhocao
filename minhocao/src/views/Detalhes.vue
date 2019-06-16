@@ -22,7 +22,7 @@
           </v-flex>
         </v-layout>
         <v-layout row fill-height>
-          <v-flex xs12 green>
+          <v-flex xs12>
             <v-card width="100%" height="100%">
               <v-flex xs12 fill-height>
                 <v-layout fill-height pa-3 row justify-space-between>
