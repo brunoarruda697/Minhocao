@@ -5,17 +5,12 @@ export default [
     component: () => import('@/views/Home.vue'),
   },
   {
-    path: '/turnos',
-    name: 'Turnos',
-    component: () => import('@/views/Turnos.vue'),
-  },
-  {
-    path: '/:periodo/:turno',
+    path: '/salas',
     name: 'Salas',
     component: () => import('@/views/Salas.vue'),
   },
   {
-    path: '/:periodo/:turno/:sala',
+    path: '/salas/:id',
     name: 'Detalhes',
     component: () => import('@/views/Detalhes.vue'),
   },

@@ -11,6 +11,12 @@
           aspect-ratio="1"
           class="grey lighten-2"
         >
+          <v-layout pa-2 column fill-height class="lightbox white--text">
+            <v-spacer></v-spacer>
+            <v-flex shrink>
+              <div class="subheading">{{ conteudo.card }}</div>
+            </v-flex>
+          </v-layout>
         </v-img>
         <v-flex xs12>
           <v-layout column pa-2 fill-height>
