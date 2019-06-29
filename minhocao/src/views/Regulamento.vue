@@ -15,8 +15,8 @@
             </v-btn>
           </v-layout>
         </v-card-title>
-        <v-card-text>
-          <v-layout ml-5 mr-5 justify-center align-start column fill-height>
+        <v-card-text class="content">
+          <v-layout ml-5 mr-5 justify-center align-start column>
             <h1 class="regulamento-texto-titulo">
               Sobre o Jogo MinhocãoII com temáticas para o escape Game
             </h1>
@@ -39,6 +39,7 @@
             <h1 class="regulamento-texto-titulo">
               Sobre as histórias baseados nos casos clínicos
             </h1>
+            <br>
             <table>
               <td>
                 <span class="tabela-titulo">Aventura</span>
@@ -62,7 +63,7 @@
                 </tr>
               </td>
               <td>
-                Capacidade
+                <span class="tabela-titulo">Capacidade</span>
                 <tr>
                   6 Pessoas
                 </tr>
@@ -83,7 +84,7 @@
                 </tr>
               </td>
               <td>
-                Duração
+                <span class="tabela-titulo">Duração</span>
                 <tr>
                   30 Minutos
                 </tr>
@@ -104,6 +105,33 @@
                 </tr>
               </td>
             </table>
+            <br>
+            <h1 class="regulamento-texto-titulo">
+              Como Funciona
+            </h1>
+            <br>
+            <p>•	Os jogadores devem chegar com 15 minutos de antecedência ao horário agendado para receber as instruções sobre cada aventura e assinar o termo de compromisso;</p>
+            <p>•	Os jogadores devem deixar seus pertences (bolsa, celular, câmera fotográfica e de vídeo) em um armário com chave, antes de entrar na sala. É proibido tirar fotografias, filmar no interior das salas e usar ajuda externa além daquela proporcionada pelo jogo;</p>
+            <p>•	Assim que os jogadores entram na sala, inicia a contagem do tempo de 30, 15 ou 10 minutos, o qual pode ser visualizado em um tablet na sala;</p>
+            <p>•	Os jogos são monitorados, por câmera, pelos monitores do Minhocão II para acompanhar as ações dos jogadores, de forma a lhes ajudar com alguma necessidade ou em casos de emergência;</p>
+            <p>•	Os monitores do Minhocão II e jogadores podem se comunicar pelo tablet ao vivo caso for necessário;</p>
+            <p>•	Após saírem da aventura, é tirada uma foto dos jogadores, a qual é publicada nas redes sociais da Minhocão II.</p>
+            <h1 class="regulamento-texto-titulo">
+              Como Adquirir
+            </h1>
+            <br>
+            <p>•	Os participantes devem adquirir ingressos através do site. Durante a inscrição no site, deve-se escolher a aventura que deseja jogar, a quantidade de participantes (respeitando o número mínimo e máximo de participantes.</p>
+            <h1 class="regulamento-texto-titulo">
+              Regras Gerais
+            </h1>
+            <br>
+            <p>•	Não é permitido entrar com bebidas e alimentos nas salas das aventuras;</p>
+            <p>•	Não quebrar nenhum objeto das salas;</p>
+            <p>•	É proibido subir nos móveis das salas;</p>
+            <p>•	É proibido mover móveis pesados;</p>
+            <p>•	É proibido deixar marcas, dobras ou riscos nos objetos da sala;</p>
+            <p>•	É proibido levar objetos da sala;</p>
+            <p>•	Respeitar as indicações de “não tocar” e “não subir” coladas em alguns objetos da sala.</p>
           </v-layout>
         </v-card-text>
       </v-card>
@@ -143,5 +171,10 @@ p {
 
 td {
   padding-right: 20px;
+}
+
+.content {
+  height: 80%;
+  overflow: auto;
 }
 </style>
