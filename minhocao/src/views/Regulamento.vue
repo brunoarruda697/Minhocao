@@ -132,6 +132,23 @@
             <p>•	É proibido deixar marcas, dobras ou riscos nos objetos da sala;</p>
             <p>•	É proibido levar objetos da sala;</p>
             <p>•	Respeitar as indicações de “não tocar” e “não subir” coladas em alguns objetos da sala.</p>
+            <br>
+            <h1 class="regulamento-texto-titulo">
+              Coordenadores
+            </h1>
+            <br>
+            <p>Taísa Valques Lorencete – Biomedicina</p>
+            <p>Taísa Valques Lorencete –Medicina</p>
+            <p>Lilian Capellari- Odontologia</p>
+            <p>Jelmary Rezende /Lilian Capellari- Psicologia Matutino</p>
+            <p>Lilian Capellari- Enfermagem</p>
+            <p>Jelmary Rezende /Sandra Pierini - Psicologia Noturno</p>
+            <p>Graziella Batista Silva- Ed Fisica 1 Noturno A</p>
+            <p>Graziella Batista Silva- Ed Fisica 1 Noturno B</p>
+            <p>Graziella Batista Silva- Ed Fisica 1 Matutino</p>
+            <p>Alexandra Perdigão/Patricia Sandri- Nutrição</p>
+            <p>Carolina Semiguen/Sandra Pierini- Fisioterapia e Fonoaudiologia Noturno</p>
+            <p>Sandra Pierini- Fisioterapia Matutino</p>
           </v-layout>
         </v-card-text>
       </v-card>
