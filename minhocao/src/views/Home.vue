@@ -21,7 +21,7 @@
               type="button"
               class="botao-regulamento"
               @click="abrirRegulamento($event)"
-              value="Regularmento"
+              value="Regulamento"
             >
           </div>
       </v-layout>
