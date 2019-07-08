@@ -132,7 +132,7 @@ export default {
 					imagem: Aglomerado,
 					titulo: 'Aglomerados 1º Enfermagem Noturno',
 					card: 'Aglomerados',
-					descricao: 'Uma festa organizada por estudantes de pedagogia, agronomia, medicina veterinária e zootecnia de uma universidade do Rio Grande do Sul acabou em tragédia, após um incêndio na boate que deixou 242 mortos 680 feridos. O desastre foi provocado pela imprudência e pelas más condições do local. As vítimas foram admitidas nos hospitais por lesões de queimaduras grave. Venha desvendar os mistério por trás das Queimaduras.',
+					descricao: 'Uma festa organizada por estudantes de engenharias, agronomia, medicina veterinária e zootecnia de uma universidade do RS acabou em tragédia após um incêndio na casa noturna que deixou 242 mortos 680 feridos. O desastre foi provocado pela imprudência e pelas más condições de segurança no local. As vítimas foram imediatamente admitidas nos hospitais por graves lesões de queimaduras. Venha desvendar os mistério por trás das Queimaduras.',
 					limite: 6,
 					tempo: 30,
 				},
